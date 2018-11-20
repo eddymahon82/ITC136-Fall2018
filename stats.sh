@@ -19,7 +19,9 @@ echo -en "This is a snapshot of your current system:
 \e[46m
 Open Internet Connections:
 $connections
-\e[0m
+
+
+\e[49m
 "
 
 echo "
