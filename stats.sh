@@ -10,17 +10,16 @@ users=$( who )
 
 echo -en "This is a snapshot of your current system:
 
-\e[95mLight magenta     Disk Used: $diskused
+\e[95m        Disk Used: $diskused
                   
-\e[96mLight cyan        Free Memory: $memfree
+\e[96m        Free Memory: $memfree
                   
-\e[5mBlink \e[32mGreen  Logged In Users: $users
+\e[5m \e[32m  Logged In Users: $users
                   
-                  \e[30;48;5;82m
-                  Open Internet Connections:
-                  $connections
-                  
-                  \e[0m
+\e[46m
+Open Internet Connections:
+$connections
+\e[0m
 "
 
 echo "
