@@ -12,7 +12,7 @@ username=$(whoami)
 
 userid=$(id -u $username)
 
-userrootprev=$(grep '^sudo:.*$' /etc/group | cut -d: -f4)
+userrootprev=$(sudo -l)
 
 alluserprocesses=$(ps aux | grep $username)
 
