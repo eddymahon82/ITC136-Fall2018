@@ -9,3 +9,4 @@
 echo -en "Hello there big world...How are you?"
 echo "This is the current working directory: "
 pwd
+echo "This is Jens line of code " 
